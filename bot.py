@@ -8,8 +8,8 @@ from aiogram.types import Message
 from aiogram.enums import ParseMode
 from aiogram.client.default import DefaultBotProperties
 
-TOKEN = os.getenv("BOT_TOKEN")
-GROUP_ID = -100XXXXXXXXX  # ВСТАВЬ ID своей группы
+TOKEN = os.getenv("8742536061:AAFEe4d-CpRje_p7gOzwYlLdSN47F-AdVGw")
+GROUP_ID = -4770091083  # ID группы
 
 bot = Bot(
     token=TOKEN,
@@ -94,4 +94,5 @@ async def main():
 
 
 if __name__ == "__main__":
+
     asyncio.run(main())
